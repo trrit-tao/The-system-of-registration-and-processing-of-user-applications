@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="1" author="sasha">
+        <sql>
+            insert into "user"(id, user_name, password)
+            values (1, '132@mail.ru', 33),
+                   (2, '234@mail.ru', 33),
+                   (3, '345@mail.ru', 33);
+
+            insert into task(id, status, text, user_phone, user_name, create_date)
+            values (1, 'DRAFT', 'делай дела', '8888888', '132@mail.ru', now()),
+                   (2, 'DRAFT', 'делай дела', '4444444', '234@mail.ru', now()),
+                   (3, 'DRAFT', 'делай дела', '5555555', '345@mail.ru', now());
+
+            insert into role(id, role)
+            values (1, 'ADMIN_ROLE'),
+                   (2, 'OPERATOR_ROLE'),
+                   (3, 'USER_ROLE');
+
+            insert into user_to_role(user_id, role_id)
+            values (1, 1),
+                   (2, 2),
+                   (3, 3);
+
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>

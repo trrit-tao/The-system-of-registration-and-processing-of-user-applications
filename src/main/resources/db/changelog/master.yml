@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - include:
+      relativeToChangelogFile: true
+      file: createUsers.xml
+  - include:
+      relativeToChangelogFile: true
+      file: createTask.xml
+  - include:
+      relativeToChangelogFile: true
+      file: createRole.xml
+  - include:
+      relativeToChangelogFile: true
+      file: createUserToRole.xml
+  - include:
+      relativeToChangelogFile: true
+      file: insertUser.xml
