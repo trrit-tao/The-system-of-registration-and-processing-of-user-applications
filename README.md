@@ -106,3 +106,4 @@ http://localhost:8080/swagger-ui/index.html#/Аутентификация/signIn
 
 в свагере получаешь jwt токен при входе через логин и в idea в хэдере подставляете токен
 
+![dd](https://avatars.mds.yandex.net/i?id=860f34f1ed9e583dd4ec7ff34530ef5bcf9ead09-10868638-images-thumbs&n=13)
