@@ -104,6 +104,6 @@ login 345@mail.ru  pass 33
 ### swager :
 http://localhost:8080/swagger-ui/index.html#/Аутентификация/signIn
 
-в свагере получаешь jwt токен при входе через логин и в idea в хэдере подставляете токен
+В свагере получаешь jwt токен при входе через логин, и в idea в хэдере подставляете токен
 
 ![dd](https://i.imgflip.com/1a2agi.jpg)
