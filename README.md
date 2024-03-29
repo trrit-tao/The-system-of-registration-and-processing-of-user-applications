@@ -1,5 +1,5 @@
 # Система регистрации и обработки пользовательских заявок.
-:computer: `Java 17` `архитектуру REST` ` Spring: Boot, Security, JPA,` `PostgreSQL ` `Liquibase` `Hibernate`   
+:computer: `Java 17` `архитектуру REST` ` Spring: Boot, Security, JPA,` `PostgreSQL ` `Liquibase` `Hibernate`  `jwt token` 
 ## Описание проекта:
  ***Пользователь посредством системы может подавать заявки оператору на рассмотрение.***     
  ***Оператор может просматривать пользовательские заявки и принимать или отклонять их.***   
